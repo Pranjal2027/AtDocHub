@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.atdochub.api.document.TC_06_document_title"/>
+      <class name="com.atdochub.api.document.TC_11_document_open"/>
+      <class name="com.atdochub.api.document.TC_05_document_all"/>
+      <class name="com.atdochub.api.document.TC_07_document_city"/>
+      <class name="com.atdochub.api.document.TC_17_document_no_doc_id"/>
+      <class name="com.atdochub.api.login.TC_03_wrong_email"/>
+      <class name="com.atdochub.api.document.TC_12_document_closed"/>
+      <class name="com.atdochub.api.document.TC_10_document_notification"/>
+      <class name="com.atdochub.api.document.TC_09_document_find_by_end_date"/>
+      <class name="com.atdochub.api.activity.TC_01_activity_all"/>
+      <class name="com.atdochub.api.document.TC_13_document_pending"/>
+      <class name="com.atdochub.api.login.TC_02_Send_otp_to_email"/>
+      <class name="com.atdochub.api.activity.TC_02_activity_update"/>
+      <class name="com.atdochub.api.document.TC_16_document_Title_no_content"/>
+      <class name="com.atdochub.api.appointment.TC_06_appointment_date"/>
+      <class name="com.atdochub.api.activity.TC_03_activity_register"/>
+      <class name="com.atdochub.api.appointment.TC_11_Appointment_date_wrong"/>
+      <class name="com.atdochub.api.document.TC_15_document_fields_blank"/>
+      <class name="com.atdochub.api.appointment.TC_08_appointment_tommorrows"/>
+      <class name="com.atdochub.api.appointment.TC_09_appointment_search_by_date"/>
+      <class name="com.atdochub.api.appointment.TC_01_appointment_all"/>
+      <class name="com.atdochub.api.login.TC_04_wrong_password"/>
+      <class name="com.atdochub.api.appointment.TC_07_appointmnet_todays"/>
+      <class name="com.atdochub.api.document.TC_08_document_party_name"/>
+      <class name="com.atdochub.api.appointment.TC_02_appointment_update_by_id"/>
+      <class name="com.atdochub.api.activity.TC_05_activity_find_by_id_no_id"/>
+      <class name="com.atdochub.api.appointment.TC_04_appointment_register"/>
+      <class name="com.atdochub.api.appointment.TC_12_Appointment_Find_by_id_no_id"/>
+      <class name="com.atdochub.api.appointment.TC_10_Appointment_field_blank"/>
+      <class name="com.atdochub.api.document.TC_03_document_update"/>
+      <class name="com.atdochub.api.login.TC_01_login"/>
+      <class name="com.atdochub.api.appointment.TC_03_appointment_find_by_id"/>
+      <class name="com.atdochub.api.document.TC_01_document_registers"/>
+      <class name="com.atdochub.api.document.TC_04_document_find_by_doc_id"/>
+      <class name="com.atdochub.api.activity.TC_04_activity_find_by_id"/>
+      <class name="com.atdochub.api.document.TC_14_document_submitted"/>
+      <class name="com.atdochub.api.document.TC_02_document_find_by_start_date"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
